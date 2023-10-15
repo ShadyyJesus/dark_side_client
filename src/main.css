@@ -1,0 +1,155 @@
+#first_heading{
+    margin: 118px 0 70px 0;
+
+    color: #FFF;
+    text-align: left;
+    font-family: Medusa Gothic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_text{
+    width: 614px;
+    margin-bottom: 70px;
+    color: #FFF;
+    font-family: Medusa Gothic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#second_image{
+    float: right;
+}
+
+#gallery{
+    margin-top: 225px;
+}
+
+#second_heading{
+    margin-bottom: 60px;  
+    color: #FFF;
+    text-align: left;
+    font-family: Medusa Gothic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#first_img{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#second_img{
+    float: right;
+    margin-bottom: 20px;
+}
+
+#fourth_img{
+    float: right;
+    margin-bottom: 20px;
+}
+
+#third_img{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#reviews{
+    display: flex;
+    margin-top: 1260px;
+}
+
+.review{
+    width: 370px;
+    height: 480px;
+    border-radius: 25px;
+    background: #151720;
+    margin-right: 34px;
+    margin-bottom: 163px;
+}
+
+.Avatar{
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 85px;
+    background: #000;
+
+    margin: 55px 50px auto;
+}
+
+.Text{
+    width: 271px;
+    height: 189px;
+
+    margin: 43px 50px auto;
+
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Name{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-left: 50px;
+}
+
+.joinText{
+    width: 1070px;
+    height: 165px;
+    flex-shrink: 0;
+
+    color: #CA9100;
+    font-family: Medusa Gothic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 53px;
+}
+
+.joinbtn{
+    color: #FFF;
+    text-align: center;
+    font-family: Medusa Gothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: none;
+    border-radius: 20px;
+    background: #9F0000;
+}
+
+
+#joinbtn{
+    margin-bottom: 180px;
+    margin-right: 22px;
+    width: 270px;
+    height: 47px;
+    flex-shrink: 0;
+}
+
+#discoverbtn{
+    width: 189px;
+    height: 47px;
+    flex-shrink: 0;
+}

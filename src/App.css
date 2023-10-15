@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  background: linear-gradient(180deg, #340202 0%, #0F1015 40.82%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  max-width: 1198px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logo{
+    max-width: 1198px;
+    padding: 0 10px 100px;
+    margin-top: 40px;
+    color: #CA9100;
+    text-align: right;
+    font-family: Medusa Gothic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#BIG_TXT{
+  color: #CA9100;
+  text-align: center;
+  font-family: Medusa Gothic;
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#welcome_text{
+  margin: 0 212px;
+
+  width: 770px;
+  height: 176px;
+  flex-shrink: 0;
+
+  color: #CA9100;
+  text-align: center;
+  font-family: Medusa Gothic;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#begin_btn{
+  margin: 65px 483px 132px;
+
+  padding: 0;
+  border-radius: 15px;
+  border: none;
+  background: #CA9100;
+  width: 206px;
+  height: 50px;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Medusa Gothic;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+#first_image{
+  float: none;
+  margin-bottom: 100px;
+}
+
+.App-footer{
+  width: 100%;
+  height: 579px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+.Ishack{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 164px;
+}
+
+.footer-btns{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  display: flex;
+  margin-top: 58px;
+}
+
+.Explore{
+  margin-left: 141px;
+  margin-right: 298px;
+}
+
+.Community{
+  margin-right: 262px;
+}
+
+.footer-link{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 25px;
+
+  cursor: pointer;
+}
+
+/* App.css */
+
+.btn-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-to-top.visible {
+  opacity: 1;
+}
+
+.btn-to-top img {
+  width: 60px;
+  height: 60px;
 }
